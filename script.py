@@ -67,13 +67,12 @@ plt.show()
 
 
 # %%
-# Create a larger histogram
-plt.figure(figsize=(12, 6))  # Increased figure size for better visibility
+plt.figure(figsize=(12, 6))  
 plt.hist(data['Data_value'].dropna(), bins=30, color='orange', edgecolor='black')
 plt.title('Distribusi Nilai Penjualan')
 plt.xlabel('Nilai Penjualan (Dollars)')
 plt.ylabel('Frekuensi')
-plt.grid(axis='y')  # Add gridlines to the y-axis for better readability
+plt.grid(axis='y')  
 plt.show()
 
 
